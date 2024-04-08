@@ -62,7 +62,7 @@ variables:
     {% set entity_list = label_entities(selector) %}
 
     {% for item in entity_list %}
-      {% for state in states | selectattr('state', 'match', 'unavailable') | selectattr('entity_ud', 'match', item)%}
+      {% for state in states | selectattr('state', 'match', 'unavailable') | selectattr('entity_id', 'match', item)%}
         {% set result.entities = result.entities + [state.name] %}
       {% endfor %}
     {% endfor %}
