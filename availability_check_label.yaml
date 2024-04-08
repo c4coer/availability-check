@@ -2,7 +2,7 @@ blueprint:
   name: Entity check label
   description: Test de la disponibilité d'entités identitées par un label
   domain: automation
-  source_url: https://github.com/argonaute199/availability-check/blob/main/availability_check_wildcard.yaml
+  source_url: https://github.com/argonaute199/availability-check/blob/main/availability_check_label.yaml
 
   # Entrées du blueprint
   input:
