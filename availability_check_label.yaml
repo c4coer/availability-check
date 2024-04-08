@@ -50,7 +50,6 @@ blueprint:
 
 variables:
 
-  exclude: !input 'exclude'
   selector: !input 'selector'
   time1: !input 'time1'
   time2: !input 'time2'
