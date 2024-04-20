@@ -1,4 +1,8 @@
 # availability-check
-Home Assistant blue print usefull to check if a Home Assistant device is available or not.
-This blueprint is currently only in french.
+Home Assistant BluePrints usefull to build automations to check if Home Assistant entities are available or not. If entities becomes unavailable, a notification is sent with the list of not available entities.
+These blueprints are currently only in french.
+- availability_check_label.yaml : check entities which have a specific label.
+- availability_check_wildcards.yaml : check entities which ID match with a string filter with wildcards.
+
+Full documentation is here (in french) : https://www.hacf.fr/surveillance-entites/
 
